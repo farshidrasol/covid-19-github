@@ -1,0 +1,37 @@
+.infbox {
+   text-align: right;
+   padding: 0;
+   margin: 0;
+   flex: 1;
+   cursor: pointer;
+}
+
+.infbox:not(:last-child){
+    margin-right: 15px;
+}
+
+.infbox--selected {
+    border-top: 10px solid greenyellow;
+}
+.infbox--red {
+    border-color: red;
+}
+.infobox__title{
+    padding-bottom: 10px;
+}
+.infbox__cases--green{
+    color: lightgreen !important;
+}
+
+.infobox__cases{
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #cc1034;
+}
+ .infobox__total {
+     color: #6c757d;
+     font-weight: 700 !important;
+     font-size: 0.9rem !important;
+     margin-top: 11px !important;
+ }
